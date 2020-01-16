@@ -35,6 +35,10 @@ li.last{
     border-right: none;
 }
 
+.img-campanha{
+    border: 10px solid rgb(209, 209, 186);
+}
+
 #container{
     width: 900px;
 }
