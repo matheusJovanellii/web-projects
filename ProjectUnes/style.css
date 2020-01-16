@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(Imagens/fundo.png);
+}
+
+ul{
+    list-style: none;
+    font-size: 20px;
+}
+
+li{
+    float: left;
+    position: relative;
+    left: 555px;
+    top: -75px;
+}
+
+li a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: rgb(7, 7, 133);
+}
+
+#container{
+    width: 900px;
+    margin: 0 auto; 
+}
+
+#menu{
+    padding-top: 26px;
+}
+
+#rodape{
+    text-align: center;
+}
+
+.clear{
+    clear: both;
+}
+
+.float{
+    float: left;
+    position: relative;
+    top: -57px;
+    margin-bottom: -50px;
+}
