@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(Imagens/fundo.png);
+    
 }
 
 ul{
@@ -9,7 +9,7 @@ ul{
     font-size: 20px;
 }
 
-li{
+li.opcao{
     float: left;
     position: relative;
     left: 555px;
@@ -41,8 +41,19 @@ li a:hover {
     text-align: center;
 }
 
+#content{
+    position: absolute;
+    margin-top: -50px;
+    text-align: left;
+    width: 900px;
+}
+
 .clear{
     clear: both;
+}
+
+.marginRodape{
+    margin-top: 520px;
 }
 
 .float{
