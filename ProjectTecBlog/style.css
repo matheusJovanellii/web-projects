@@ -41,6 +41,32 @@ a:hover{
     padding-top: 40px;
 }
 
+#conteudo{
+    width: 900px;
+    margin: 15px auto;
+    
+}
+
+#conteudo-principal{
+    width: 640px;
+    border: 1px solid greenyellow;
+    background-color: white;
+    float: left;
+    padding: 15px;
+}
+
+#conteudo-principal-direita{
+    width: 190px;
+    background-color: white;
+    border: 1px solid red;
+    float: right;
+    padding: 5px;
+}
+
 .white{
     color: white;
+}
+
+.clear{
+    margin: 10px;
 }
