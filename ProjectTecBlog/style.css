@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #e6e6e6;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+    position: relative;
+    left: 500px;
+    top: 8px;
+}
+
+li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+a:hover{
+    background: white;
+    color: rgb(253, 217, 55);
+}
+
+#cabecalho{
+    text-align: center;
+    height: 110px;
+    background-color: rgb(253, 217, 55);
+    padding-top: 40px;
+}
+
+.white{
+    color: white;
+}
