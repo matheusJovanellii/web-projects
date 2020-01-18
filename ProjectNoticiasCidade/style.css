@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: url(Imagens/fundo.png) repeat-x;
+}
+
+#menu-topo ul{
+    list-style-type: none;
+}
+
+#menu-topo li{
+    float: left;
+    background: rgb(180, 8, 8);
+    
+}
+
+#menu-topo li a{
+    display: block;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    background: url(Imagens/divisor.png) no-repeat left center;
+}
+
+#menu-topo li a:hover{
+    color: rgb(39, 39, 39);
+}
+
+body.home #navegacao a#home{
+    color: white;
+    background: rgb(211, 11, 11);
+    cursor: text;
+}
+
+#container{
+    width: 770px;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+
+#cabecalho{
+    padding: 20px;
+    height: 233px;
+}
+
+#logo{
+    margin-bottom: 30px;
+}
+
+#detalhe{
+    float: right;
+    position: relative;
+    top: -110px;
+}
+
+#conteudo{
+    
+}
