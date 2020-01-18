@@ -1,72 +1,115 @@
+/* LIMPAR FORMATAÇÕES PADRÕES */
 *{
     margin: 0;
     padding: 0;
 }
 
+/* FORMATAÇÕES EM GERAL */
 body{
     font-size: 1em;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     background-color: #e6e6e6;
 }
 
-ul{
-    list-style-type: none;
-    overflow: hidden;
+h1{
+    font-size: 2.5em;
+    color: #4e4e4e;
 }
 
-li{
-    float: left;
-    position: relative;
-    left: 500px;
-    top: 8px;
-}
-
-li a{
-    display: block;
+a{
     text-decoration: none;
-    color: white;
-    text-align: center;
-    padding: 15px;
+}
+
+a:link, a:visited{
+    color: #f7b600;
 }
 
 a:hover{
-    background: white;
-    color: rgb(253, 217, 55);
+    text-decoration: underline;
 }
 
-#cabecalho{
-    text-align: center;
-    height: 110px;
-    background-color: rgb(253, 217, 55);
-    padding-top: 40px;
+#area-cabecalho a:link, #area-cabecalho a:visited{
+    color: #FFF;
+    padding: 8px 12px;
 }
 
-#conteudo{
-    width: 900px;
-    margin: 15px auto;
-    
+#area-cabecalho a:hover{
+    color: #f7b600;
+    background-color: #FFF;
+    text-decoration: none;
 }
 
-#conteudo-principal{
-    width: 640px;
-    border: 1px solid greenyellow;
-    background-color: white;
-    float: left;
-    padding: 15px;
+h2{
+    color: #f7b600;
 }
 
-#conteudo-principal-direita{
-    width: 190px;
-    background-color: white;
-    border: 1px solid red;
-    float: right;
+h3{
+    color: #565656;
+    background: #CCC;
     padding: 5px;
 }
 
-.white{
-    color: white;
+/* LAYOULT IDS*/
+#area-cabecalho{
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
 }
 
-.clear{
-    margin: 10px;
+#area-logo, #area-menu{
+    padding: 10px;
+}
+
+#area-principal{
+    width: 920px;
+    margin: 0px auto;
+    padding: 15px;
+}
+
+#area-postagens{
+    width: 660px;
+    float:left;
+}
+
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #CCC;
+}
+
+/*LAYOULTS CLASSES*/
+.branco{
+    color:white;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.conteudo-lateral{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #CCC;
 }
