@@ -4,60 +4,80 @@
 }
 
 body{
-    font-size: 1em;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     background: url(Imagens/fundo.png) repeat-x;
 }
 
-#menu-topo ul{
-    list-style-type: none;
-}
-
-#menu-topo li{
-    float: left;
-    background: rgb(180, 8, 8);
-    
-}
-
-#menu-topo li a{
-    display: block;
+h3{
     color: white;
-    padding: 12px;
-    text-decoration: none;
-    background: url(Imagens/divisor.png) no-repeat left center;
+    background: rgb(48, 48, 107);
+    padding: 5px;
+    font-size: 1.1em;
 }
 
-#menu-topo li a:hover{
-    color: rgb(39, 39, 39);
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-body.home #navegacao a#home{
-    color: white;
-    background: rgb(211, 11, 11);
-    cursor: text;
+a:link, a:visited{
+    color: #b10333;
+    padding: 2px;
+}
+
+a:hover{
+    color: #e50040;
 }
 
 #container{
-    width: 770px;
+    width: 750px;
     margin: 0 auto;
-    border: 2px solid red;
 }
+
+/* CABEÇALHO */
 
 #cabecalho{
-    padding: 20px;
-    height: 233px;
+    padding-top: 20px;
+    height: 150px;
+    background: url(Imagens/detalhe-topo.png) no-repeat right center;
 }
 
-#logo{
-    margin-bottom: 30px;
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(Imagens/logo.png) no-repeat center;
+    text-indent: -3000px;
 }
 
-#detalhe{
-    float: right;
-    position: relative;
-    top: -110px;
+#cabecalho ul{
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
 }
 
-#conteudo{
-    
+#cabecalho ul li{
+    float: left;
+}
+
+#cabecalho ul a{
+    text-decoration: none;
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.4em;
+    color: white;
+    line-height: 2.1em;
+    background: url(Imagens/divisor.png) no-repeat left center;
+}
+
+#cabecalho ul a:hover{
+    color: #69001d;
+}
+
+/* Deixar marcado a página */
+
+body.home #navegacao a#home{
+    color: white;
+    background: #de003e;
+    cursor: text;
 }
