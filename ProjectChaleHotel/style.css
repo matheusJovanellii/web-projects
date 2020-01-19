@@ -17,6 +17,17 @@ ul{
     list-style: none;
 }
 
+h2{
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 5px 0;
+}
+
+p{
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
 #container{
     background: #ede9cc url(Imagens/bg-container.png) top center repeat-y;
     margin: 0 auto;
@@ -141,5 +152,9 @@ ul#navegacao a:hover{
 
 #rodape{
     clear: both;
+    padding: 16px;
+    background: #fff url(Imagens/bg-rodape.png) repeat-x top;
+    color: #7d7640;
+    text-align: center;
 }
 
