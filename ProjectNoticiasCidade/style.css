@@ -84,7 +84,8 @@ h3{
 /* Deixar marcado a página */
 
 body.home #navegacao a#home,
-body.brasil #navegacao a#brasil{
+body.brasil #navegacao a#brasil,
+body.fotos #navegacao a#fotos{
     color: white;
     background: #de003e;
     cursor: text;
@@ -113,6 +114,12 @@ body.brasil #navegacao a#brasil{
     width: 540px;
     float: left;
     margin: 0 0 20px 195px;
+}
+
+#principal-inteiro-tudo{
+    width: 720px;
+    float: left;
+    margin: 0 auto;
 }
 
 #secundario{
