@@ -83,7 +83,8 @@ h3{
 
 /* Deixar marcado a página */
 
-body.home #navegacao a#home{
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil{
     color: white;
     background: #de003e;
     cursor: text;
@@ -104,6 +105,12 @@ body.home #navegacao a#home{
 
 #principal{
     width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#principal-inteiro{
+    width: 540px;
     float: left;
     margin: 0 0 20px 195px;
 }
