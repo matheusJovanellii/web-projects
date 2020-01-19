@@ -13,12 +13,18 @@ a{
     text-decoration: none;
 }
 
+ul{
+    list-style: none;
+}
+
 #container{
     background: #ede9cc;
     margin: 0 auto;
     min-width: 740px;
     max-width: 1180px;
 }
+
+/* TOPO */
 
 #topo{
     position: relative;
@@ -85,3 +91,31 @@ a.reserva{
     padding: 5px 10px;
     float: right;
 }
+
+.depoimento{
+    width: 226px;
+    height: 164px;
+    float: right;
+}
+
+/* Barra de navegação vertical no topo */
+#menu{
+    margin-top: 15px;
+}
+
+ul#navegacao{
+    float: left;
+}
+
+ul#navegacao a{
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 5px;
+    color: #6e672c;
+    line-height: 30px;
+}
+
+ul#navegacao a:hover{
+    background: #fdf6be;
+}
+
