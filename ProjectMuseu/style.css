@@ -62,6 +62,7 @@ nav ul li a:hover{
 #conteudo{
     float: left;
     width: 710px;
+    margin-bottom: 20px;
 }
 
 aside{
@@ -69,6 +70,7 @@ aside{
     width: 350px;
     background: #ebe7dd;
     padding-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 /* Conteudo lateral */
@@ -131,6 +133,19 @@ h3{
     font-size: 1em;
     margin-bottom: 15px;
     text-transform: uppercase;
+}
+
+/* Rodape */
+footer{
+    clear: both;
+    text-align: center;
+    background: url(Imagens/fundo-rodape.png) no-repeat top center;
+    padding: 20px 0 10px 0;
+    margin-top: 20px;
+}
+
+footer> p a{ /* Seleciono o A que esta dentro de P que esta dentro de FOOTER*/
+    padding: 2px 10px;
 }
 
 /* Formulario */
